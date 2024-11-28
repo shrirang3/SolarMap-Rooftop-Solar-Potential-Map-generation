@@ -4,6 +4,11 @@
 The project focuses on estimating solar energy potential from segmented rooftops using the Geneva Rooftop Dataset, consisting of high-resolution satellite images. Preprocessing steps, including resizing, normalization, and augmentation, prepared the data for an optimized U-Net model enhanced with attention gates, dense layers, and bilinear upsampling, achieving superior segmentation performance with an IoU of 0.66 and AP of 0.88. The segmented rooftop areas were analyzed using contour detection to calculate their real-world size and determine the number of standard solar panels that could be installed. Using location-specific solar irradiance data and panel efficiency, the daily solar energy generation was estimated, offering actionable insights for sustainable energy planning and urban development.
 
 
+## Dataset Details
+
+
+This project utilizes the Geneva Rooftop Dataset for rooftop segmentation tasks. Special thanks to the repository [Photovoltaic-datection](https://github.com/riccardocadei/photovoltaic-detection) for providing valuable resources and inspiration for this project. The dataset contains high-resolution satellite images for rooftop segmentation. The dataset used for this project is referred to as Geneva_Rooftop. It consists of high-resolution aerial images of rooftops in the city of Geneva, Switzerland. The images capture a wide variety of rooftops, including those with different architectural styles and environmental conditions. The dataset is specifically designed for the task of pixel-wise binary semantic segmentation, where the goal is to classify each pixel for rooftop photovoltaic (PV) panel installation.You can access the dataset [Dataset Link](https://drive.google.com/file/d/1qDSLOEWwiuijwJT1v-VBkPzHhHev4CxD/view?usp=drive_link).
+
 
 ## Building the Repo locally:
 
